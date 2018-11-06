@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component,StyleSheet } from 'react';
 import './App.css';
-import {Editor, EditorState} from 'draft-js'
+import GEditor from './components/GEditor';
 class App extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {editorState: EditorState.createEmpty()};
-    this.onChange = (editorState) => this.setState({editorState});
-  }
   render() {
-    return <Editor editorState={this.state.editorState} onChange={this.onChange} />;
+   return  <div className="page">
+      <GEditor/>
+    </div>
   }
 }
 

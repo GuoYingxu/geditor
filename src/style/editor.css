@@ -1,0 +1,16 @@
+.GEditor-container{
+  min-height: 400px;
+  background: white;
+  position: relative;
+}
+.GEditor-root{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom: 0;
+  padding:15px;
+}
+.GEditor-editor .public-DraftEditor-content {
+  min-height: 400px;
+}
