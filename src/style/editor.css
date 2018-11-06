@@ -11,6 +11,10 @@
   bottom: 0;
   padding:15px;
 }
+.GEditor-prompt{
+  position: absolute;
+  top:400px
+}
 .GEditor-editor .public-DraftEditor-content {
   min-height: 400px;
 }
